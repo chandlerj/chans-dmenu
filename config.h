@@ -9,7 +9,7 @@ static int centered = 0;                    /* -c option; centers dmenu on scree
 static int min_width = 500;                    /* minimum width when centered */    
 static const unsigned int alpha = 0x88;     /* Amount of opacity. 0xff is opaque             */
 static const char *fonts[] = {
-	"DMMono:size=9"
+	"Noto Sans:size=10"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
